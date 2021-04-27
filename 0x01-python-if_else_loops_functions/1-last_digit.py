@@ -8,7 +8,7 @@ if number < 0:
     num = num * -1
 else:
     num = number % 10
-print("Last digit of {}".format(number),end=' ')
+print("Last digit of {}".format(number), end='')
 if num > 5:
     print("is {} and is greater than 5".format(num))
 elif num == 0:
